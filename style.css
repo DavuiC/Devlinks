@@ -64,8 +64,7 @@ body * {
   margin-top: 8px;
 }
 
-/* switch*/
-
+/* switch */
 #switch {
   position: relative;
   width: 64px;
@@ -75,13 +74,13 @@ body * {
 #switch button {
   width: 32px;
   height: 32px;
+  background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
-  background: white var(--switch-bg-url) no-repeat center;
   position: absolute;
-  z-index: 1;
-  left: 0;
   top: 50%;
+  left: 0;
+  z-index: 1;
   transform: translateY(-50%);
   animation: slide-back 0.2s;
 }
@@ -98,7 +97,7 @@ body * {
   display: block;
   width: 64px;
   height: 24px;
-  background: var(--surfacecolor);
+  background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
